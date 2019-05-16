@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 import './Forms.css';
-class Dashboard extends Component {
+class Forms extends Component {
     render(){
         return (
             <div className="Forms">
