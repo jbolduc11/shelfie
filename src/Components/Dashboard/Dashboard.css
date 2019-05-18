@@ -1,0 +1,29 @@
+.Dashboard {
+    width: 100%;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+        flex-direction: column;
+    -ms-flex-align: center;
+        align-items: center;
+  }
+  .Dashboard > * {
+    margin: 10px 0;
+  }
+  
+  @media (min-width: 830px) {
+    .Dashboard {
+      width: 375px;
+    }
+  }
+  @media (min-width: 1000px) {
+    .Dashboard {
+      width: 475px;
+      margin-left: 5vw;
+    }
+  }
+  @media (min-width: 1200px) {
+    .Dashboard {
+      width: 50%;
+    }
+  }
